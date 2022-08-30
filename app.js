@@ -5,20 +5,16 @@ const decimalButton = document.querySelector('.decimal');
 const equalButton = document.querySelector('.equal');
 
 function Calculator() {
-  // Hides the variables
+  // Hide the values
   let current = 0;
   let previous = 0;
   let result = 0;
 
-  // Accessible elements
+  // Accessible elements (testing)
 
   this.getInput = function () {
-    digitButtons.forEach()
+    digitButtons.forEach(e => e.addEventListener('click', console.log(e)));
   }
-
-
-
-
   
 }
 
