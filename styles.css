@@ -84,12 +84,12 @@ h1 {
 
 .clear {
   grid-column: 1 / 3;
-  background: rgb(185, 6, 6);
+  background: rgb(255, 69, 69);
 }
 
 .delete {
   grid-column: 3 / 5;
-  background: rgb(85, 85, 192);
+  background: rgb(62, 62, 255);
 }
 
 .btn {
