@@ -35,7 +35,6 @@ class Calculator {
   }
 
   updateDisplay () {
-    console.log(this.currentValue.innerText, this.currentOperand, this.previousOperand);
     currentValue.innerText = this.currentOperand;
     previousInput.innerText = this.previousOperand;
   }
@@ -66,12 +65,12 @@ class Calculator {
       default:
         return;
     }
-    // console.log(this.currentOperand, result);
+
     this.currentOperand = result;
-    console.log(this.currentOperand, result)
+
     this.previousInput.innerText = this.currentOperand;
     this.currentValue.innerText = this.currentOperand;
-    // console.log(this.currentOperand, result);
+
     this.operation = undefined;
     this.previousOperand = '';
   }
